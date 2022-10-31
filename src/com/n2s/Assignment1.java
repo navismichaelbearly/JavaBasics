@@ -50,5 +50,9 @@ public class Assignment1 {
 		}
 		s1.close();
 	}
+	
+	public void quest(){
+		
+	}
 
 }
