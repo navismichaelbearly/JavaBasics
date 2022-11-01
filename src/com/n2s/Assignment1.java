@@ -3,9 +3,15 @@ package com.n2s;
 import java.util.Scanner;
 
 public class Assignment1 {
+	Scanner s1 = new Scanner(System.in);
+	
 
 	public static void main(String[] args) {
-		Scanner s1 = new Scanner(System.in);
+		Assignment1 a = new Assignment1();
+		a.quest();
+	}
+	
+	public void quest(){
 		System.out.println("Please enter the Month in Number: ");
 		int monthNumber = s1.nextInt();
 		switch(monthNumber) {
@@ -47,12 +53,9 @@ public class Assignment1 {
 				break;
 			default:
 				System.out.println("Please enter correct Month Number");
+				this.quest();
+				
 		}
-		s1.close();
-	}
-	
-	public void quest(){
-		
 	}
 
 }

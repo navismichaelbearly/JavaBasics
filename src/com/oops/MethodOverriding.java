@@ -1,5 +1,11 @@
 package com.oops;
 
+class SuperRiding {
+	public void msg() {
+		System.out.println("Running from super riding");
+	}
+}
+
 public class MethodOverriding extends SuperRiding {
 
 	public static void main(String[] args) {
@@ -12,8 +18,4 @@ public class MethodOverriding extends SuperRiding {
 	}
 }
 
-class SuperRiding {
-	public void msg() {
-		System.out.println("Running from super riding");
-	}
-}
+

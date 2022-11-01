@@ -4,7 +4,9 @@ public class MethodOverloading {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MethodOverloading mo = new MethodOverloading();
+		//MethodOverloading mo1; // we cannot use this.
 		System.out.println(mo.met("Navis"));
+		System.out.println(new MethodOverloading().met("without name"));
 		System.out.println(mo.met(10.25f, 10.02f));
 		System.out.println(mo.met(4, 5));
 		System.out.println(mo.met(10, 10, 20));
@@ -12,7 +14,7 @@ public class MethodOverloading {
 		/*
 		 * Method Overloading
 		 */
-		//compile time polymorphisam
+		//compile time polymorphism
 		//static binding.
 		//early binding.
 		

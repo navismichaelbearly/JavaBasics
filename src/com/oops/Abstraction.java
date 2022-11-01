@@ -3,7 +3,10 @@ package com.oops;
 public class Abstraction extends Calc {
 	
 	public static void main(String[] args) {
-		
+		Abstraction a = new Abstraction();
+		System.out.println(a.add(10, 20));
+		System.out.println(a.sub(30, 10));
+		System.out.println(a.mult(10, 10));
 	}
 
 	@Override
