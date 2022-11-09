@@ -16,6 +16,8 @@ public class MethodOverriding extends SuperRiding {
 		System.out.println("Running from method overriding");
 		super.msg();
 	}
+	
+	
 }
 
 

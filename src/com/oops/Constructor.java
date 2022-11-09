@@ -1,5 +1,7 @@
 package com.oops;
 
+import com.n2s.Example;
+
 public class Constructor {
 	public static void main(String[] args) {
 		Constructor ct = new Constructor();
@@ -8,6 +10,9 @@ public class Constructor {
 		new Constructor("Navis", 10);
 		
 		Child child = new Child();
+		
+		//Example ex = new Example();
+
 	}
 	
 	Constructor() { //this default constructor should get added if we have additional constructor

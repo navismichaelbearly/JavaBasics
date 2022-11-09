@@ -20,6 +20,10 @@ public class Example {
 		System.out.println(sub(9, 4));
 	}
 	
+//	private Example() { //if the constructor is private we cannot initiate the class
+//		
+//	}
+	
 	public int add(int i, int j) {
 		return i + j;
 	}
