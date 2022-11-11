@@ -22,6 +22,12 @@ public class TreeSetSample {
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}
+		
+		//comparator / comparable (common for set) it will do the sorting of TreeMap
+		//Collection is used to store the object.
+		//our class will used as generics.
+		//if one con comparable
+		//if more than one argument in comparables
 	}
 
 }

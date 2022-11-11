@@ -9,7 +9,7 @@ public class HashSetSample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// it will not have duplicate
-		// it will throw error if there is duplication...rather it will overwrite.
+		// it will not throw error if there is duplication...rather it will overwrite.
 		HashSet<String> hs = new HashSet<String>();
 		hs.add("Vijay");
 		hs.add("Shar");

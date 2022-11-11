@@ -9,17 +9,18 @@ public class ALSample {
 		// TODO Auto-generated method stub
 		ArrayList<String> al = new ArrayList<String>();
 		al.add("Vijay");
-		al.add("Shar");
+		al.add("Sharmila");
 		al.add("Sai");
 		al.add("Drashti");
-		al.add("Shar");
+		al.add("Sharmila");
 		
 		ArrayList<String> al2 = new ArrayList<String>();
 		al2.add("Navis");
 		al2.add("Anu");
 		
 		//2. only forward
-		//3. list move for or back
+		//3. list move forward or back
+		//4. It will allow duplicates
 		al.addAll(al2);
 		
 		//System.out.println(al);
