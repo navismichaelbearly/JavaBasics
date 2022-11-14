@@ -22,6 +22,8 @@ public class DQSample {
 			System.out.println(s);
 		}
 		
+		
+		
 		dq.pollLast();
 		System.out.println("========================");
 		for(String s: dq) {

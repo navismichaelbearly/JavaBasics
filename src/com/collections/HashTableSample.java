@@ -15,6 +15,7 @@ public class HashTableSample {
 		//ht.put(150, null); - NOTE - null value is not allowed
 		ht.put(135, "Sharmila");
 		//ht.put(200, null);
+		//ht.put(null, 200);
 		
 		//it will sort the key
 		//it will not allow the key and value null

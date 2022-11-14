@@ -13,7 +13,6 @@ public class HashEquals {
 		//1. Hashcode will be first
 		//2. equals.
 		
-		
 		HashEquals h1 = new HashEquals();
 		HashEquals h2 = new HashEquals();
 		
@@ -30,8 +29,6 @@ public class HashEquals {
 		
 	}
 
-	
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -39,8 +36,6 @@ public class HashEquals {
 		result = prime * result + (int) (id ^ (id >>> 32));
 		return result;
 	}
-
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -55,8 +50,6 @@ public class HashEquals {
 			return false;
 		return true;
 	}
-
-
 
 	public long getId() {
 		return id;

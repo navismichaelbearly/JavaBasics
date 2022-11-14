@@ -12,11 +12,10 @@ public class HashSetSample {
 		// it will not throw error if there is duplication...rather it will overwrite.
 		HashSet<String> hs = new HashSet<String>();
 		hs.add("Vijay");
-		hs.add("Shar");
+		hs.add("Sharmila");
 		hs.add("Sai");
 		hs.add("Drashti");
-		hs.add("Shar");
-		
+		hs.add("Sharmila");
 		
 		Iterator<String> it = hs.iterator();
 		while(it.hasNext()) {

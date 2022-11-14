@@ -33,6 +33,9 @@ public class PQSample {
 		}
 		System.out.println("head: " + pq.element());
 		System.out.println("head: " + pq.peek());
+		
+		
+		//priority queue is stored in ascending order or not?
 	}
 
 }
