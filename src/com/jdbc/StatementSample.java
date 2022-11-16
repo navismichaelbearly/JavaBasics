@@ -12,13 +12,18 @@ public class StatementSample {
 	public static ResultSet rs = null;
 	public static void main(String[] args) {
 		try {
+			/*
+			 * create table
+			 * create table login (id int, uname varchar(2), pwd varchar(12));
+			 */
+			
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee_management_system", "navis", "lp$7Freesie");
 			System.out.println("Database is connected");
 			stmt = con.createStatement();
 			
-//			String sql = "insert into login values ('2', 'vj', 'welcome')";
-//			int result = stmt.executeUpdate(sql);
-//			System.out.println(result);
+			//String sql = "insert into login values ('2', 'vj', 'welcome')";
+			//int result = stmt.executeUpdate(sql);
+			//System.out.println(result);
 			
 			String sql = "select * from login";
 			rs = stmt.executeQuery(sql);
